@@ -17,7 +17,7 @@ For EEG data preprocessing please use:
 
 For EEG data analysis please use 
 ```matlab
-    'DWI_metrics_extraction.m ' 
+    'EEG_metric_extraction.m ' 
 ```
 
 DWI
