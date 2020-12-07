@@ -7,7 +7,7 @@ This repository includes the code required to reproduce the results in: "Network
 </p>
 
 
-TMS-EEG 
+# TMS-EEG 
 All EEG data pre-processing was performed offline using EEGLAB 14.1 (https://github.com/sccn/eeglab) (Delorme and Makeig, 2004) and customized script running in Matlab R2017b (Math-Works Inc., USA). All TMS-evoked EEG source reconstruction and analysis was performed using Brainstorm (https://github.com/brainstorm-tools/brainstorm3) (Tadel et al., 2019) and customized script running in Matlab R2017b (Math-Works Inc., USA). 
 
 For EEG data preprocessing please use:
@@ -20,7 +20,7 @@ For EEG data analysis please use
     'EEG_metric_extraction.m ' 
 ```
 
-DWI
+# DWI
 All DWI metrics were extracted using a customized script running in Matlab R2017b (Math-Works Inc., USA). 
 For DWI data analysis please use 
 ```matlab
@@ -28,3 +28,10 @@ For DWI data analysis please use
 ```
 
 There is an updated version of the code at the following link: https://github.com/Davi1990/DissNet
+
+# TMS Targeting 
+For TMS targets please use: 
+```matlab
+    'yeo2subject.sh subj nNet' 
+```
+
